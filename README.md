@@ -1,6 +1,6 @@
 # Email phishing detection add-in application
 
-This repository contains files used in the development of an email phishing detection add-in application. The application was developed in Microsoft's Office Outlook add-in environment to be able to run on Outlook Live (www.outlook.com).
+This repository contains files used in the development of an email phishing detection application. The application was developed in Microsoft's Office Outlook add-in environment to be able to run on Outlook Live (www.outlook.com).
 
 ## Result
 
@@ -11,27 +11,27 @@ The application has the following functionailties:
 3.	User manual
 4.	Percent score system for rating section’s functionalities
 5.	Sender section:
-  a.	Fetching sender’s display name and email address
-  b.	Comparing similarities between them
-  c.	Fetching sender’s IP address
+  - Fetching sender’s display name and email address
+  - Comparing similarities between them
+  - Fetching sender’s IP address
 
 6.	Content section:
-  a.	Fetching profile name of email user
-  b.	Comparing email body text to phishing word list
+  - Fetching profile name of email user
+  - Comparing email body text to phishing word list
 7.	Link section:
-  a.	Fetching links found in email
-  b.	Checking encoding of links
-  c.	Checking links usage of HTTP/HTTPS
-  d.	Checking links usage of redirection
-  e.	Checking duplication of links
+  - Fetching links found in email
+  - Checking encoding of links
+  - Checking links usage of HTTP/HTTPS
+  - Checking links usage of redirection
+  - Checking duplication of links
 8.	Authentication section:
-  a.	Fetching email authentication protocol results
-  b.	Checking results of SPF
-  c.	Checking results of DKIM
-  d.	Checking results of DMARC
+  - Fetching email authentication protocol results
+  - Checking results of SPF
+  - Checking results of DKIM
+  - Checking results of DMARC
 9.	Attachment section:
-  a.	Fetching email attachments
-  b.	Counting and displaying file names
+  - Fetching email attachments
+  - Counting and displaying file names
   
 A demon of the application, illustrating its functionailites can be seen at:
 
@@ -42,11 +42,12 @@ A demon of the application, illustrating its functionailites can be seen at:
 A application detection test was performed to measure its capabilites of seperating phishing emails from legitimate emails.
 The test was performed on 300 emails, 150 legitimate emails and 150 phishing emails.
 
-
-
 ## Improvements
 
-##
+## About project
+
+## Abstract
+
 ## Tools and frameworks
 
 Following tools an frameworks where used to develop the application.
