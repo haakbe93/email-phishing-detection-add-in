@@ -1,4 +1,4 @@
-# Email phishing detection add-in application
+# Email phishing detection application
 
 This repository contains files used in the development of an email phishing detection application. The application was developed in Microsoft's Office Outlook add-in environment to be able to run on Outlook Live (www.outlook.com).
 
@@ -46,7 +46,7 @@ Close up of add-in:
 
 ### Appliction detection test
 
-A application detection test was performed to measure its capabilites of seperating phishing emails from legitimate emails.
+A application detection test was performed to measure the application capabilites of seperating phishing emails from legitimate emails.
 The test was performed on 300 emails, 150 legitimate emails and 150 phishing emails.
 
 The test data collected was based on the percent scores given by the application to the following fields:
@@ -86,6 +86,21 @@ Authetication section:
 ![](figures/authentication_section_links.png)
 
 ## Improvements
+Improvement of existing functionality:
+- Improve normalization of data gathered from emails (sender's display name and email address)
+- Improve analysis of email message content (expand phishing word list)
+- Improve percent score system (tuning of the percent scores given to each of the sections)
+    
+Further work:
+- Implement machine learning text classification for email messages. (Tensorflow.js)
+- Access email user contact list
+- Convert application from client-side to server-side (from Node.js to Azure cloud)
+- Implement storage of user data to enable functionality such as:
+  - Collect email data for usage in machine learning.
+  - User application preferences and customization.
+  - Storing user information such as email contact list.
+
+    
 
 ## About project
 
