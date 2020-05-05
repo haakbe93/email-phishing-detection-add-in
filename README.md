@@ -6,33 +6,31 @@ This repository contains files used in the development of an email phishing dete
 
 The application has the following functionailties:
 
-1.	Routing between application pages
-2.	GUI for accessing functionalities
-3.	User manual
-4.	Percent score system for rating section’s functionalities
-
-5.	Sender section:
-  - Fetching sender’s display name and email address
-  - Comparing similarities between them
-  - Fetching sender’s IP address
-
+1.  Routing between application pages
+2.  GUI for accessing functionalities
+3.  User manual
+4.  Percent score system for rating section’s functionalities
+5.  Sender section:
+    - Fetching sender’s display name and email address
+    - Comparing similarities between them
+    - Fetching sender’s IP address
 6.	Content section:
-  - Fetching profile name of email user
-  - Comparing email body text to phishing word list
+    - Fetching profile name of email user
+    - Comparing email body text to phishing word list
 7.	Link section:
-  - Fetching links found in email
-  - Checking encoding of links
-  - Checking links usage of HTTP/HTTPS
-  - Checking links usage of redirection
-  - Checking duplication of links
+    - Fetching links found in email
+    - Checking encoding of links
+    - Checking links usage of HTTP/HTTPS
+    - Checking links usage of redirection
+    - Checking duplication of links
 8.	Authentication section:
-  - Fetching email authentication protocol results
-  - Checking results of SPF
-  - Checking results of DKIM
-  - Checking results of DMARC
+    - Fetching email authentication protocol results
+    - Checking results of SPF
+    - Checking results of DKIM
+    - Checking results of DMARC
 9.	Attachment section:
-  - Fetching email attachments
-  - Counting and displaying file names
+    - Fetching email attachments
+    - Counting and displaying file names
   
 A demon of the application, illustrating its functionailites can be seen at:
 
@@ -59,7 +57,7 @@ The test data collected was based on the percent scores given by the application
   - Total evaluation
 
 The total average percent score for each of the data fields
-
+![](figures/total_evaluation_score.png)
 
 #### Analysis of the application detection test data:
 
