@@ -108,16 +108,21 @@ Further work:
 
 ## Tools and frameworks
 
-Following tools and frameworks where used to develop the application.
+The following is a list of software, frameworks and tools used to develop the application.
 
-### Javascript
-This template is written using JavaScript. For the [TypeScript](http://www.typescriptlang.org/) version of this template, go to [Office-Addin-TaskPane-React](https://github.com/OfficeDev/Office-Addin-TaskPane-React).
+1.	React.js (JavaScript Framework) https://reactjs.org/
+2.	Material-UI (React.js components) https://material-ui.com/
+3.	Office.js library (Outlook JavaScript API) https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/apis
+4.	Yeoman generator for Office Add-ins https://github.com/OfficeDev/generator-office
+https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/outlook-quickstart?tabs=yeomangenerator
+5.	Node.js to run webserver locally https://nodejs.org/en/about/
+6.	Visual Studio Code (IDE) https://code.visualstudio.com/
 
-### Yeoman generator
-This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
+## Set up
 
-### Visual Studio Code (IDE)
+Follow Microsoft's "Build you first Outlook add-in" for easy set-up and installation of development environment.
 
+https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/outlook-quickstart?tabs=yeomangenerator
 
 ## Copyright
 
