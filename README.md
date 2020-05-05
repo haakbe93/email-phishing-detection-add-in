@@ -38,10 +38,54 @@ A demon of the application, illustrating its functionailites can be seen at:
 
   https://youtu.be/T9jzo4Z1yLk
 
+
+Screenshots of the add-in running in Outlook Live:
+![](figures/add_in_in_outlook.png)
+
+Close up of add-in:
+
+![](figures/add_in_close_up.png)
+
 ### Appliction detection test
 
 A application detection test was performed to measure its capabilites of seperating phishing emails from legitimate emails.
 The test was performed on 300 emails, 150 legitimate emails and 150 phishing emails.
+
+The test data collected was based on the percent scores given by the application to the following fields:
+  - Sender information
+  - Message content
+  - Links
+  - Authentication
+  - Total evaluation
+
+The total average percent score for each of the data fields
+
+
+#### Analysis of the application detection test data:
+
+Total evaluation legitimate emails:
+
+![](figures/tot_eva_150_legit_emails.png)
+
+Total evluation phishing emails:
+
+![](figures/tot_eva_150_phishing_emails.png)
+
+Sender information section:
+
+![](figures/sender_section_emails.png)
+
+Message content section:
+
+![](figures/content_section_emails.png)
+
+Links section:
+
+![](figures/links_section_emails.png)
+
+Authetication section:
+
+![](figures/authentication_section_links.png)
 
 ## Improvements
 
