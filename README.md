@@ -10,6 +10,7 @@ The application has the following functionailties:
 2.	GUI for accessing functionalities
 3.	User manual
 4.	Percent score system for rating section’s functionalities
+
 5.	Sender section:
   - Fetching sender’s display name and email address
   - Comparing similarities between them
@@ -50,7 +51,7 @@ The test was performed on 300 emails, 150 legitimate emails and 150 phishing ema
 
 ## Tools and frameworks
 
-Following tools an frameworks where used to develop the application.
+Following tools and frameworks where used to develop the application.
 
 ### Javascript
 This template is written using JavaScript. For the [TypeScript](http://www.typescriptlang.org/) version of this template, go to [Office-Addin-TaskPane-React](https://github.com/OfficeDev/Office-Addin-TaskPane-React).
@@ -60,13 +61,6 @@ This repository contains the source code used by the [Yo Office generator](https
 
 ### Visual Studio Code (IDE)
 
-
-## Additional resources
-
-* [Office add-in documentation](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
-* More Office Add-in samples at [OfficeDev on Github](https://github.com/officedev)
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Copyright
 
