@@ -46,7 +46,7 @@ Close up of add-in:
 
 ### Appliction detection test
 
-A application detection test was performed to measure the application capabilites of seperating phishing emails from legitimate emails.
+An application detection test was performed to measure the application capabilites of seperating phishing emails from legitimate emails.
 The test was performed on 300 emails, 150 legitimate emails and 150 phishing emails.
 
 The test data collected was based on the percent scores given by the application to the following fields:
@@ -104,7 +104,13 @@ Further work:
 
 ## About project
 
+This project is part of a master's thesis written at University of Oslo (UiO), spring 2020.
+
 ## Abstract
+
+The following is the abstract of the master's thesis:
+
+
 
 ## Tools and frameworks
 
