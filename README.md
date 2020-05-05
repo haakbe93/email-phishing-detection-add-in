@@ -110,6 +110,17 @@ This project is part of a master's thesis written at University of Oslo (UiO), s
 
 The following is the abstract of the master's thesis:
 
+This project explores the concept of email phishing and what can be done to detect it, thereby preventing it from succeeding. Email phishing can be described as a type of social engineering attack, manipulating the victim into doing as the attacker (email sender) wants. It occurs when an attacker masquerading as a trusted entity, fools the target into clicking malicious links or attachments found within an unsolicited email. This can lead to installation of malware or theft of sensitive, personal or financial information and data. 
+
+The goal of this project has been to find out if phishing emails share common recognizable patterns that can separate them from legitimate emails. Then use these patterns as the base for developing an application capable of detecting phishing emails. The application had to be compatible with a real email client to get access to emails for testing. To do that a Microsoft Office Outlook add-in was developed and implemented, able to run on Outlook Live. A demo of the application, showing its functionality, can be seen at YouTube: https://youtu.be/T9jzo4Z1yLk
+
+The source code of the add-in application was made as an open-source repository at GitHub: https://github.com/haakbe93/email-phishing-detection-add-in
+
+Two tests were performed in this project. First, an application detection test to find out if the developed add-in application could detect phishing emails. Secondly, a user test to find out if the add-in application could improve the participants email phishing awareness.
+
+From the application detection test results, it was concluded that the application did have a 73% success rate of rating emails legitimate and a 92,67% success rate of rating emails phishing. From the user test results it was concluded that the application did improve the participants email phishing awareness with at least 20%. 
+
+As for the projects value for email security it was concluded that it has shed light on commonly exploited email vulnerabilities. Some of which were shown to be prevented with the right tools for email phishing detection and awareness.
 
 
 ## Tools and frameworks
